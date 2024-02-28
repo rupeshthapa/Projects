@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "4061206985",
+    "project_id": "dissertation-91b67",
+    "storage_bucket": "dissertation-91b67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4061206985:android:4e11c9a0f6f1b3ad7f3018",
+        "android_client_info": {
+          "package_name": "com.example.driversdoor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4061206985-elgob5ccivp1cn64ra2bspdm2g726t3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.driversdoor",
+            "certificate_hash": "f145ad6dd7994ad54ac198752b3da2c933a3dc96"
+          }
+        },
+        {
+          "client_id": "4061206985-jai00erndv99972qklsehliopqrgnmjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM2iudFNjpUMrhksz9eJ93qLofhm3Y__4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4061206985-jai00erndv99972qklsehliopqrgnmjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

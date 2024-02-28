@@ -1,0 +1,65 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/economyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Economy" />
+
+    <Button
+        android:id="@+id/premiumButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Premium" />
+
+    <Button
+        android:id="@+id/sharedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shared" />
+
+    <!-- Search bar, pickup, drop-off, and buttons initially set to GONE -->
+    <LinearLayout
+        android:id="@+id/searchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!-- Pickup Location EditText -->
+        <EditText
+            android:id="@+id/pickupEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pickup Location" />
+
+        <!-- Drop-off Location EditText -->
+        <EditText
+            android:id="@+id/dropoffEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Drop-off Location" />
+
+        <!-- Start and Cancel buttons -->
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

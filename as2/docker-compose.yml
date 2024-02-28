@@ -1,0 +1,24 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    volumes:
+      - ./cars/public/:/var/www/html/
+    ports:
+      - 80:80
+
+  db:
+    image: mysql
+    volumes:
+      - .:/docker-entrypoint-initdb.d
+    environment:
+        MYSQL_ROOT_PASSWORD: password
+        MYSQL_DATABASE: cars
+        MYSQL_USER: student
+        MYSQL_PASSWORD: student
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8081:8080

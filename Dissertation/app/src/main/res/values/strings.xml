@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DriversDoor</string>
+    <string name="title_activity_passenger">PassengerActivity</string>
+
+    <string name="email_label">Email: %s</string>
+    <string name="full_name_label">Full Name: %s</string>
+    <string name="vehicle_label">Vehicle: %s</string>
+    <string name="plate_number_label">Plate Number: %s</string>
+    <string name="license_number_label">License Number: %s</string>
+    <string name="not_available">Not Available</string>
+
+    <!-- Add any other resource strings you need -->
+
+
+</resources>
